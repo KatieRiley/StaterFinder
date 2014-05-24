@@ -21,6 +21,8 @@
 		BF700DD9193146280066DDED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF700DD0193146280066DDED /* MainStoryboard.storyboard */; };
 		BF700DDA193146280066DDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF700DD2193146280066DDED /* main.m */; };
 		BF700DDB193146280066DDED /* StaterFinder-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF700DD3193146280066DDED /* StaterFinder-Info.plist */; };
+		BF700DFF193148DA0066DDED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF700DFB193148DA0066DDED /* InfoPlist.strings */; };
+		BF700E00193148DA0066DDED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF700DFD193148DA0066DDED /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		BF700DD2193146280066DDED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StaterFinder/main.m; sourceTree = SOURCE_ROOT; };
 		BF700DD3193146280066DDED /* StaterFinder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "StaterFinder-Info.plist"; path = "StaterFinder/StaterFinder-Info.plist"; sourceTree = SOURCE_ROOT; };
 		BF700DD4193146280066DDED /* StaterFinder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "StaterFinder-Prefix.pch"; path = "StaterFinder/StaterFinder-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		BF700DFC193148DA0066DDED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		BF700DFE193148DA0066DDED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,7 @@
 		2807097F171522E800259B3A /* StaterFinder */ = {
 			isa = PBXGroup;
 			children = (
+				BF700DFA193148DA0066DDED /* en.lproj */,
 				BF700DAC193144BB0066DDED /* APLAppDelegate.h */,
 				BF700DAD193144BB0066DDED /* APLAppDelegate.m */,
 				BF700DAE193144BB0066DDED /* APLDetailViewController.h */,
@@ -125,6 +130,16 @@
 			children = (
 				BF700DCE193146280066DDED /* InfoPlist.strings */,
 				BF700DD0193146280066DDED /* MainStoryboard.storyboard */,
+			);
+			name = en.lproj;
+			path = StaterFinder/en.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		BF700DFA193148DA0066DDED /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BF700DFB193148DA0066DDED /* InfoPlist.strings */,
+				BF700DFD193148DA0066DDED /* MainStoryboard.storyboard */,
 			);
 			name = en.lproj;
 			path = StaterFinder/en.lproj;
@@ -183,10 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF700DD8193146280066DDED /* InfoPlist.strings in Resources */,
+				BF700DFF193148DA0066DDED /* InfoPlist.strings in Resources */,
 				BF700DD6193146280066DDED /* Default.png in Resources */,
 				BF700DD5193146280066DDED /* Default-568h@2x.png in Resources */,
 				BF700DD9193146280066DDED /* MainStoryboard.storyboard in Resources */,
 				BF700DDB193146280066DDED /* StaterFinder-Info.plist in Resources */,
+				BF700E00193148DA0066DDED /* MainStoryboard.storyboard in Resources */,
 				BF700DD7193146280066DDED /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,6 +238,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				BF700DD1193146280066DDED /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		BF700DFB193148DA0066DDED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF700DFC193148DA0066DDED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BF700DFD193148DA0066DDED /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF700DFE193148DA0066DDED /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";

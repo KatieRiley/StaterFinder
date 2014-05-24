@@ -10,16 +10,17 @@
 		2807097A171522E800259B3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28070979171522E800259B3A /* UIKit.framework */; };
 		2807097C171522E800259B3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807097B171522E800259B3A /* Foundation.framework */; };
 		2807097E171522E800259B3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2807097D171522E800259B3A /* CoreGraphics.framework */; };
-		28070984171522E800259B3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28070982171522E800259B3A /* InfoPlist.strings */; };
-		28070986171522E800259B3A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28070985171522E800259B3A /* main.m */; };
-		2807098A171522E800259B3A /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28070989171522E800259B3A /* APLAppDelegate.m */; };
-		2807098C171522E800259B3A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2807098B171522E800259B3A /* Default.png */; };
-		2807098E171522E800259B3A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2807098D171522E800259B3A /* Default@2x.png */; };
-		28070990171522E800259B3A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2807098F171522E800259B3A /* Default-568h@2x.png */; };
-		28070993171522E800259B3A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28070991171522E800259B3A /* MainStoryboard.storyboard */; };
-		28070996171522E800259B3A /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28070995171522E800259B3A /* APLViewController.m */; };
-		2835EDFC1715255D00659AE1 /* APLProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 2835EDFB1715255D00659AE1 /* APLProduct.m */; };
-		28DED20B1746F0BA00C382D5 /* APLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DED20A1746F0BA00C382D5 /* APLDetailViewController.m */; };
+		BF700DBF193144BB0066DDED /* APLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF700DAD193144BB0066DDED /* APLAppDelegate.m */; };
+		BF700DC0193144BB0066DDED /* APLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF700DAF193144BB0066DDED /* APLDetailViewController.m */; };
+		BF700DC1193144BB0066DDED /* APLProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = BF700DB1193144BB0066DDED /* APLProduct.m */; };
+		BF700DC2193144BB0066DDED /* APLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF700DB3193144BB0066DDED /* APLViewController.m */; };
+		BF700DD5193146280066DDED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF700DCA193146280066DDED /* Default-568h@2x.png */; };
+		BF700DD6193146280066DDED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF700DCB193146280066DDED /* Default.png */; };
+		BF700DD7193146280066DDED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF700DCC193146280066DDED /* Default@2x.png */; };
+		BF700DD8193146280066DDED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF700DCE193146280066DDED /* InfoPlist.strings */; };
+		BF700DD9193146280066DDED /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF700DD0193146280066DDED /* MainStoryboard.storyboard */; };
+		BF700DDA193146280066DDED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF700DD2193146280066DDED /* main.m */; };
+		BF700DDB193146280066DDED /* StaterFinder-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF700DD3193146280066DDED /* StaterFinder-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,23 +28,23 @@
 		28070979171522E800259B3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2807097B171522E800259B3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2807097D171522E800259B3A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		28070981171522E800259B3A /* StaterFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StaterFinder-Info.plist"; sourceTree = "<group>"; };
-		28070983171522E800259B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		28070985171522E800259B3A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		28070987171522E800259B3A /* StaterFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StaterFinder-Prefix.pch"; sourceTree = "<group>"; };
-		28070988171522E800259B3A /* APLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APLAppDelegate.h; sourceTree = "<group>"; };
-		28070989171522E800259B3A /* APLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLAppDelegate.m; sourceTree = "<group>"; };
-		2807098B171522E800259B3A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2807098D171522E800259B3A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2807098F171522E800259B3A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		28070992171522E800259B3A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		28070994171522E800259B3A /* APLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APLViewController.h; sourceTree = "<group>"; };
-		28070995171522E800259B3A /* APLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APLViewController.m; sourceTree = "<group>"; };
-		2835EDFA1715255D00659AE1 /* APLProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLProduct.h; sourceTree = "<group>"; };
-		2835EDFB1715255D00659AE1 /* APLProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLProduct.m; sourceTree = "<group>"; };
 		2870CD0B17152842002C9048 /* ReadMe.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ReadMe.txt; sourceTree = SOURCE_ROOT; };
-		28DED2091746F0BA00C382D5 /* APLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLDetailViewController.h; sourceTree = "<group>"; };
-		28DED20A1746F0BA00C382D5 /* APLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLDetailViewController.m; sourceTree = "<group>"; };
+		BF700DAC193144BB0066DDED /* APLAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLAppDelegate.h; path = StaterFinder/APLAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		BF700DAD193144BB0066DDED /* APLAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLAppDelegate.m; path = StaterFinder/APLAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		BF700DAE193144BB0066DDED /* APLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLDetailViewController.h; path = StaterFinder/APLDetailViewController.h; sourceTree = SOURCE_ROOT; };
+		BF700DAF193144BB0066DDED /* APLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLDetailViewController.m; path = StaterFinder/APLDetailViewController.m; sourceTree = SOURCE_ROOT; };
+		BF700DB0193144BB0066DDED /* APLProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLProduct.h; path = StaterFinder/APLProduct.h; sourceTree = SOURCE_ROOT; };
+		BF700DB1193144BB0066DDED /* APLProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLProduct.m; path = StaterFinder/APLProduct.m; sourceTree = SOURCE_ROOT; };
+		BF700DB2193144BB0066DDED /* APLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLViewController.h; path = StaterFinder/APLViewController.h; sourceTree = SOURCE_ROOT; };
+		BF700DB3193144BB0066DDED /* APLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLViewController.m; path = StaterFinder/APLViewController.m; sourceTree = SOURCE_ROOT; };
+		BF700DCA193146280066DDED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "StaterFinder/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		BF700DCB193146280066DDED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = StaterFinder/Default.png; sourceTree = SOURCE_ROOT; };
+		BF700DCC193146280066DDED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "StaterFinder/Default@2x.png"; sourceTree = SOURCE_ROOT; };
+		BF700DCF193146280066DDED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		BF700DD1193146280066DDED /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BF700DD2193146280066DDED /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StaterFinder/main.m; sourceTree = SOURCE_ROOT; };
+		BF700DD3193146280066DDED /* StaterFinder-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "StaterFinder-Info.plist"; path = "StaterFinder/StaterFinder-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BF700DD4193146280066DDED /* StaterFinder-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "StaterFinder-Prefix.pch"; path = "StaterFinder/StaterFinder-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				2870CD0B17152842002C9048 /* ReadMe.txt */,
-				2807097F171522E800259B3A /* TableSearch */,
+				2807097F171522E800259B3A /* StaterFinder */,
 				28070978171522E800259B3A /* Frameworks */,
 				28070977171522E800259B3A /* Products */,
 			);
@@ -88,36 +89,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2807097F171522E800259B3A /* TableSearch */ = {
+		2807097F171522E800259B3A /* StaterFinder */ = {
 			isa = PBXGroup;
 			children = (
-				28070991171522E800259B3A /* MainStoryboard.storyboard */,
-				28070994171522E800259B3A /* APLViewController.h */,
-				28070995171522E800259B3A /* APLViewController.m */,
-				28DED2091746F0BA00C382D5 /* APLDetailViewController.h */,
-				28DED20A1746F0BA00C382D5 /* APLDetailViewController.m */,
-				2835EDFA1715255D00659AE1 /* APLProduct.h */,
-				2835EDFB1715255D00659AE1 /* APLProduct.m */,
-				28070988171522E800259B3A /* APLAppDelegate.h */,
-				28070989171522E800259B3A /* APLAppDelegate.m */,
+				BF700DAC193144BB0066DDED /* APLAppDelegate.h */,
+				BF700DAD193144BB0066DDED /* APLAppDelegate.m */,
+				BF700DAE193144BB0066DDED /* APLDetailViewController.h */,
+				BF700DAF193144BB0066DDED /* APLDetailViewController.m */,
+				BF700DB0193144BB0066DDED /* APLProduct.h */,
+				BF700DB1193144BB0066DDED /* APLProduct.m */,
+				BF700DB2193144BB0066DDED /* APLViewController.h */,
+				BF700DB3193144BB0066DDED /* APLViewController.m */,
 				28070980171522E800259B3A /* Supporting Files */,
 			);
+			name = StaterFinder;
 			path = TableSearch;
 			sourceTree = "<group>";
 		};
 		28070980171522E800259B3A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				28070981171522E800259B3A /* StaterFinder-Info.plist */,
-				28070982171522E800259B3A /* InfoPlist.strings */,
-				28070985171522E800259B3A /* main.m */,
-				28070987171522E800259B3A /* StaterFinder-Prefix.pch */,
-				2807098B171522E800259B3A /* Default.png */,
-				2807098D171522E800259B3A /* Default@2x.png */,
-				2807098F171522E800259B3A /* Default-568h@2x.png */,
+				BF700DCA193146280066DDED /* Default-568h@2x.png */,
+				BF700DCB193146280066DDED /* Default.png */,
+				BF700DCC193146280066DDED /* Default@2x.png */,
+				BF700DCD193146280066DDED /* en.lproj */,
+				BF700DD2193146280066DDED /* main.m */,
+				BF700DD3193146280066DDED /* StaterFinder-Info.plist */,
+				BF700DD4193146280066DDED /* StaterFinder-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		BF700DCD193146280066DDED /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				BF700DCE193146280066DDED /* InfoPlist.strings */,
+				BF700DD0193146280066DDED /* MainStoryboard.storyboard */,
+			);
+			name = en.lproj;
+			path = StaterFinder/en.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -171,11 +182,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28070984171522E800259B3A /* InfoPlist.strings in Resources */,
-				2807098C171522E800259B3A /* Default.png in Resources */,
-				2807098E171522E800259B3A /* Default@2x.png in Resources */,
-				28070990171522E800259B3A /* Default-568h@2x.png in Resources */,
-				28070993171522E800259B3A /* MainStoryboard.storyboard in Resources */,
+				BF700DD8193146280066DDED /* InfoPlist.strings in Resources */,
+				BF700DD6193146280066DDED /* Default.png in Resources */,
+				BF700DD5193146280066DDED /* Default-568h@2x.png in Resources */,
+				BF700DD9193146280066DDED /* MainStoryboard.storyboard in Resources */,
+				BF700DDB193146280066DDED /* StaterFinder-Info.plist in Resources */,
+				BF700DD7193146280066DDED /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,29 +198,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28070986171522E800259B3A /* main.m in Sources */,
-				2807098A171522E800259B3A /* APLAppDelegate.m in Sources */,
-				28070996171522E800259B3A /* APLViewController.m in Sources */,
-				2835EDFC1715255D00659AE1 /* APLProduct.m in Sources */,
-				28DED20B1746F0BA00C382D5 /* APLDetailViewController.m in Sources */,
+				BF700DC0193144BB0066DDED /* APLDetailViewController.m in Sources */,
+				BF700DC1193144BB0066DDED /* APLProduct.m in Sources */,
+				BF700DBF193144BB0066DDED /* APLAppDelegate.m in Sources */,
+				BF700DDA193146280066DDED /* main.m in Sources */,
+				BF700DC2193144BB0066DDED /* APLViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28070982171522E800259B3A /* InfoPlist.strings */ = {
+		BF700DCE193146280066DDED /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28070983171522E800259B3A /* en */,
+				BF700DCF193146280066DDED /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		28070991171522E800259B3A /* MainStoryboard.storyboard */ = {
+		BF700DD0193146280066DDED /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28070992171522E800259B3A /* en */,
+				BF700DD1193146280066DDED /* en */,
 			);
 			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
@@ -274,8 +286,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TableSearch/StaterFinder-Prefix.pch";
-				INFOPLIST_FILE = "TableSearch/StaterFinder-Info.plist";
+				GCC_PREFIX_HEADER = "StaterFinder/StaterFinder-Prefix.pch";
+				INFOPLIST_FILE = "StaterFinder/StaterFinder-Info.plist";
 				PRODUCT_NAME = StaterFinder;
 				WRAPPER_EXTENSION = app;
 			};
@@ -285,8 +297,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TableSearch/StaterFinder-Prefix.pch";
-				INFOPLIST_FILE = "TableSearch/StaterFinder-Info.plist";
+				GCC_PREFIX_HEADER = "StaterFinder/StaterFinder-Prefix.pch";
+				INFOPLIST_FILE = "StaterFinder/StaterFinder-Info.plist";
 				PRODUCT_NAME = StaterFinder;
 				WRAPPER_EXTENSION = app;
 			};
